@@ -81,7 +81,7 @@ async function cekStatusPembayaran() {
       clearInterval(user.interval);
       user.saldo += user.amount;
 
-      const trxId = "RMZ-" + Math.floor(Math.random() * 1000000).toString().padStart(6, "0");
+      const trxId = "FR3-" + Math.floor(Math.random() * 1000000).toString().padStart(6, "0");
 
       document.getElementById("qrisArea").classList.add("hidden");
       document.getElementById("batalBtn").classList.add("hidden");
